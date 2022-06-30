@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <Dictionary />
-      <small>coded by Ericka Angeles</small>
+      <small className="Footer">coded by Ericka Angeles</small>
     </div>
   );
 }
