@@ -1,13 +1,30 @@
+.App {
+  max-width: 960px;
+  margin: 20px auto;
+}
+body {
+  background-color: #f2f7ff;
+}
 small {
   display: block;
   margin-top: 80px;
+  text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Title {
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 3px;
 }
+.Subtitle {
+  font-size: 20px;
 
+  color: rgb(174, 172, 172);
+  margin-bottom: 30px;
+}
+span {
+  font-size: 40px;
+  font-weight: lighter;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -20,11 +20,12 @@ export default function Dictionary() {
     setResults(response.data[0]);
   }
   return (
-    <div className="Search">
-      <form onSubmit={handleSubmit}>
-        <input type="search" onChange={wordChange} />
-        <button type="submit">Search</button>
-      </form>
+    <div>
+      <section className="Search">
+        <form onSubmit={handleSubmit}>
+          <input type="search" onChange={wordChange} />
+        </form>
+      </section>
       <Results results={results} />
     </div>
   );
