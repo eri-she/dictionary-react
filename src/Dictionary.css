@@ -22,3 +22,7 @@ section {
 a {
   text-decoration: none;
 }
+
+img {
+  margin: 20px auto;
+}
