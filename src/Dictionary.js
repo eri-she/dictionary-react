@@ -34,7 +34,7 @@ export default function Dictionary() {
     <div>
       <section className="Search">
         <form onSubmit={handleSubmit}>
-          <input type="search" className="Form-control" onChange={wordChange} />
+          <input type="search" className="form-control" onChange={wordChange} />
         </form>
       </section>
       <Results results={results} />
