@@ -8,7 +8,7 @@ function App() {
       <div className="Subtitle">
         <span>|</span> Choose your words wisely.
       </div>
-      <Dictionary defaultWord="joy" />
+      <Dictionary defaultWord="travel" />
       <small className="Footer">
         📖 This project was coded by Ericka Angeles and is{" "}
         <a
