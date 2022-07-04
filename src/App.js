@@ -8,8 +8,17 @@ function App() {
       <div className="Subtitle">
         <span>|</span> Choose your words wisely.
       </div>
-      <Dictionary />
-      <small className="Footer">coded by Ericka Angeles</small>
+      <Dictionary defaultWord="joy" />
+      <small className="Footer">
+        📖 This project was coded by Ericka Angeles and is{" "}
+        <a
+          href="https://github.com/eri-she/dictionary-react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced.
+        </a>
+      </small>
     </div>
   );
 }

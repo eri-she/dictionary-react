@@ -7,12 +7,14 @@ export default function Photos(props) {
         <div className="row">
           {props.photos.map(function (photos, index) {
             return (
-              <div key={index} className="col-4">
-                <img
-                  src={photos.src.landscape}
-                  alt="photos"
-                  className="img-fluid"
-                />
+              <div key={index} className="col-3">
+                <a href={photos.src.original} target="_blank" rel="noreferrer">
+                  <img
+                    src={photos.src.tiny}
+                    alt="photos"
+                    className="img-fluid rounded"
+                  />
+                </a>
               </div>
             );
           })}
